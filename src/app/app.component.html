@@ -1,0 +1,9 @@
+
+<app-header (toogleMenuOn)="toogleMenuOn($event)"></app-header>
+<app-menu *ngIf="condition"></app-menu>
+<div class="main-wrapper">
+    <app-presentation-filter></app-presentation-filter>
+    <!-- <app-order-summary></app-order-summary>  -->
+</div>
+
+<router-outlet></router-outlet>
