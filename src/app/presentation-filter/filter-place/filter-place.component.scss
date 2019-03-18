@@ -2,65 +2,109 @@
 
     background-color: #3F467C;
     width: 100%;
-    
-    .presentation__availability {
-
-        padding: 5% 5%;
-        display: flex;
-        flex-direction: row;
+   
+    .presentation__filter {
         
-        .presentation__filter {
-            
+        display: flex;
+        flex-direction: column;
+        padding: 3% 5%;
+    
+        .presentation__choice {
+
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            margin-right: 2%;
+
+            h3 {
+                color: #fff;
+            }
             
-            .presentation__choice {
+            select {
+                border: 1px solid #8ba0d7;
+                background-color: transparent;
+                color: #fff;
+                // overflow: hidden;
+                padding: 15px 20px;
+                font-size: 1em;
 
-                
-                display: flex;
-                flex-direction: column;
-                margin-right: 2%;
+                option {
 
-                h3 {
-                    color: #fff;
-
-                }
-                
-                select {
-                    border: 1px solid #8ba0d7;
-                    background-color: transparent;
-                    color: #fff;
-                    // overflow: hidden;
-                    padding: 15px 20px;
-                    font-size: 1em;
+                    background-color: #3F467C;
                 }
             }
         }
 
         .presentation__seats {
-                
-            // width: 100%;
-            align-self: flex-end;
-    
+
+            margin: 3% 0%;
+            
             ul {
-                
+
+                list-style: none;
+                // margin: 5% 0%;
+
                 li {
-    
+
                     display: inline;
+                    margin: 0%;
                     
                     img {
-                        width: 2%;
-                        padding: 0% 1%;
+
+                        width: 3%;
                     }
-    
+
                     p {
+                        margin: 1%;
+                        display: inline;
+                        font-size: 1.2em;
                         color: #fff;
-                        display: inline-block;
                     }
                 }
             }
-    
         }
     }
 }
+
+@media(min-width: 768px) {
+
+    .presentation__place {
+
+        .presentation__filter {
+
+            flex-direction: row;
+
+            .presentation__seats {
+
+                align-self: center;
+                
+                ul {
+    
+                    list-style: none;
+    
+                    li {
+    
+                        display: inline;
+                        margin: 1.5%;
+                        
+                        img {
+    
+                            width: 3%;
+                        }
+    
+                        p {
+                            margin: 1%;
+                            display: inline;
+                            font-size: 1.2em;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
 
