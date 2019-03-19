@@ -24,7 +24,7 @@
                 background-color: transparent;
                 color: #fff;
                 // overflow: hidden;
-                padding: 15px 20px;
+                padding: 0.8em 1em;
                 font-size: 1em;
 
                 option {
@@ -54,9 +54,10 @@
                     }
 
                     p {
-                        margin: 1%;
+                        margin: 5%;
                         display: inline;
-                        font-size: 1.2em;
+                        // font-size: 1.2em;
+                        font-size: 1em;
                         color: #fff;
                     }
                 }
@@ -73,9 +74,19 @@
 
             flex-direction: row;
 
+            .presentation__choice {
+
+                select {
+                    padding: 0.8em 0.1em;
+                    
+                }
+
+            }
+
             .presentation__seats {
 
-                align-self: center;
+                margin: 0%;
+                align-self: flex-end;
                 
                 ul {
     
@@ -102,6 +113,9 @@
             }
         }
     }
+}
+
+@media(min-width: 576px) { 
 
 }
 
