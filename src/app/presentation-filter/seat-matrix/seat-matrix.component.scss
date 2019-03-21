@@ -19,27 +19,28 @@
         .letters-left {
             
             grid-area: letters-left; 
+            color: #fff;
+            text-align: start;
             
-            ul {
-                
-                text-align: start;
-                color: #fff;
+            .subgrid-left {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 10px;
+                grid-template-rows: repeat(9, 1fr);
+                // text-align: center;
             }
         }
         .seat {
             grid-area: seat; 
-            // background-color: brown;
 
             .subgrid {
                 display: grid;
                 grid-template-columns: repeat(27, 1fr);
-                grid-gap: 10px;
-                text-align: center;
-                // background-color: chartreuse;
+                grid-gap: 15px;
                 grid-template-rows: repeat(9, 1fr);
 
                 img {
-                    width: 60%;
+                    width: 90%;
                 }
             } 
             
@@ -47,11 +48,15 @@
         .letters-right {
             
             grid-area: letters-right; 
+            text-align: end;
+            color: #fff;
 
-            ul {
-
-                text-align: end;
-                color: #fff;
+            .subgrid-right {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 10px;
+                grid-template-rows: repeat(9, 1fr);
+                // text-align: center;
             }
         }
     }    
