@@ -27,7 +27,7 @@
                 grid-template-columns: repeat(1, 1fr);
                 grid-gap: 10px;
                 grid-template-rows: repeat(9, 1fr);
-                // text-align: center;
+                height: 100%;
             }
         }
         .seat {
@@ -36,11 +36,13 @@
             .subgrid {
                 display: grid;
                 grid-template-columns: repeat(27, 1fr);
-                grid-gap: 15px;
+                grid-gap: 10px;
                 grid-template-rows: repeat(9, 1fr);
+                height: 100%;
 
                 img {
-                    width: 90%;
+                    width: 100%;
+                    place-self: center;
                 }
             } 
             
@@ -56,7 +58,7 @@
                 grid-template-columns: repeat(1, 1fr);
                 grid-gap: 10px;
                 grid-template-rows: repeat(9, 1fr);
-                // text-align: center;
+                height: 100%;
             }
         }
     }    
