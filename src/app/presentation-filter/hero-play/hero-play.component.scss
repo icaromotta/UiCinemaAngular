@@ -1,126 +1,126 @@
 // COVER STYLE
 .hero {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    .hero__cover {
+  .hero__cover {
 
-        .normal-img {
-            display: none;
-        }
-
-        .mobile-img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    }  
-    
-    .hero__info {
-
-        background-color: #3F467C;
-        color: #fff;
-        display: flex;
-        width: 90%;
-        padding: 0 5%;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        
-        ul {
-            list-style: none;
-            min-width: 75%;
-            margin-top: 15%;
-            margin-bottom: 15%;
-
-            h1 {
-                font-size: 2em;
-            }
-
-            p {
-                font-size: 1.2em;
-            }
-
-            span {
-                font-size: 1.5em;
-                font-family: 'Anton', sans-serif;
-            }
-
-            .imdb {
-                color: #F5C518;
-            } 
-        }
-
-        .hero__control {
-
-            align-self: center;
-
-            button {
-                width: 8em;
-                height: 8em;
-                border-radius: 50%;
-                background-color: #f5667d;
-                border-left-color: #ff9babfa;
-                border-top-color: #ff9babfa;
-                border-bottom-color: #f5667d;
-                border-right-color: #f5667d;
-            }
-        }
+    .normal-img {
+      display: none;
     }
+
+    .mobile-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .hero__info {
+
+    background-color: #3F467C;
+    color: #fff;
+    display: flex;
+    width: 90%;
+    padding: 0 5%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    ul {
+      list-style: none;
+      min-width: 75%;
+      margin-top: 15%;
+      margin-bottom: 15%;
+
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+
+      span {
+        font-size: 1.5em;
+        font-family: 'Anton', sans-serif;
+      }
+
+      .imdb {
+        color: #F5C518;
+      }
+    }
+
+    .hero__control {
+
+      align-self: center;
+
+      button {
+        width: 8em;
+        height: 8em;
+        border-radius: 50%;
+        background-color: #f5667d;
+        border-left-color: #ff9babfa;
+        border-top-color: #ff9babfa;
+        border-bottom-color: #f5667d;
+        border-right-color: #f5667d;
+      }
+    }
+  }
 }
 
 @media(min-width: 768px) {
 
-    .hero {
+  .hero {
 
-        .hero__info {
-            
-            width: 50%;
+    .hero__info {
 
-            ul {
-                list-style: none;
-                width: 60%;
-            }
-        }
+      width: 50%;
+
+      ul {
+        list-style: none;
+        width: 60%;
+      }
     }
+  }
 
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
-    .hero {
-        .hero__cover {
+  .hero {
+    .hero__cover {
 
-            .mobile-img {
-                display: none;
-            }
-            .normal-img {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
-        }
+      .mobile-img {
+        display: none;
+      }
 
-        .hero__info {
-            background-color: transparent;
-            position: absolute;
-            flex-direction: row;
-        }
+      .normal-img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
     }
+
+    .hero__info {
+      background-color: transparent;
+      position: absolute;
+      flex-direction: row;
+    }
+  }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
 
-    .hero {
-        
-        .hero__control {
+  .hero {
 
-            align-self: center;
-            // z-index: 1;
-            margin: -3em;
-            border-radius: 50%;
-        }
+    .hero__control {
+
+      align-self: center;
+      // z-index: 1;
+      margin: -3em;
+      border-radius: 50%;
     }
+  }
 }
-
