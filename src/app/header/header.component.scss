@@ -10,7 +10,7 @@
 
   .header__logo {
 
-    width: 10%;
+    width: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,8 +19,6 @@
     button {
       display: none;
     }
-
-
   }
 
   .header__content {
@@ -61,6 +59,11 @@
     span {
       display: none;
     }
+  }
+
+  .header_player {
+
+    display: none;
   }
 }
 
@@ -107,6 +110,7 @@
 
     .header_player {
       min-width: 4em;
+      display: inline;
 
       .btn {
         width: 100%;
