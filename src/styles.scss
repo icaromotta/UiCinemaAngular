@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-body, html {
+body,
+html {
   // position: fixed;
   max-width: 100%;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -14,4 +15,6 @@ ul {
   list-style: none;
 }
 
-button:focus {outline:0;}
+button:focus {
+  outline: 0;
+}
