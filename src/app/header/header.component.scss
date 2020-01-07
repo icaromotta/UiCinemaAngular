@@ -72,16 +72,16 @@
     .header__logo {
 
       min-width: 4em;
+      background-color: transparent;
 
       button {
-
-        background-color: #f5667d;
-        border-color: #f5667d;
-        min-width: 4em;
+        background-color: transparent;
+        border: none;
         display: block;
 
-        img {
-          width: 50%;
+        i {
+          font-size: 25px;
+          color: #f5667d;
         }
       }
     }
@@ -117,7 +117,7 @@
         background-color: transparent;
 
         i {
-          font-size: 30px;
+          font-size: 25px;
           color: #f5667d;
         }
       }
