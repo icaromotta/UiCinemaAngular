@@ -12,11 +12,12 @@
 
   .header__logo {
 
-    .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-      img {
-        width: 40px;
-      }
+    img {
+      width: 40px;
     }
 
     button {
@@ -51,9 +52,8 @@
           text-decoration: none;
         }
 
-        /* mouse over link */
         a:hover {
-          background-color: lightgreen;
+          background-color: #f5667d;
           color: #3F467C;
         }
       }
@@ -84,7 +84,7 @@
       flex-direction: row;
       justify-content: center;
 
-      .logo {
+      img {
 
         display: none;
       }
@@ -97,6 +97,10 @@
         i {
           font-size: 25px;
           color: #f5667d;
+        }
+
+        i:hover {
+          color: #fff;
         }
       }
     }
@@ -129,12 +133,17 @@
         height: 100%;
         border: none;
         color: white;
-        cursor: pointer;
+
         background-color: transparent;
 
         i {
           font-size: 25px;
           color: #f5667d;
+          cursor: pointer;
+        }
+
+        i:hover {
+          color: #fff;
         }
       }
     }
@@ -151,7 +160,7 @@
 @media (min-width: 1200px) {
   .header {
     .header__logo {
-      width: 5%;
+      // width: 5%;
     }
   }
 
