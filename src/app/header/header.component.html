@@ -1,16 +1,28 @@
 <div class="header">
-    <div class="header__logo">
-        <button (click)="callMenu()">
-            <img src="{{ hamburguerMenu }}" alt="">
-        </button>
-    </div>
-    <div class="header__content">
-        <ul>
-            <li><a href="#">MAIN PAGE</a></li> 
-            <li><a href="#">NOW SHOWING</a></li>
-            <li><a href="#">COMMliNG SOON</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-        <span><a href="#">CINEMA</a></span>
-    </div>
+
+  <div class="header__logo">
+
+    <img src="../../assets/logo-rolo.png" class="normal-img" alt="">
+
+    <button (click)="callMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+
+  <div class="header__content">
+    <ul>
+      <li><a href="#">MAIN PAGE</a></li>
+      <li><a href="#">NOW SHOWING</a></li>
+      <li><a href="#">COMMING SOON</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+    <span><a href="#">Mauris Aliquet Nunc</a></span>
+  </div>
+
+  <div class="header_player">
+    <button class="btn">
+      <i class="fas fa-play"></i>
+    </button>
+  </div>
+
 </div>
