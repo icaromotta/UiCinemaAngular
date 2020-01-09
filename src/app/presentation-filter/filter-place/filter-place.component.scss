@@ -7,7 +7,7 @@
         
         display: flex;
         flex-direction: column;
-        padding: 3% 150px 3% 150px;
+        padding: 3% 80px 3% 80px;
         
     
         .presentation__choice {
@@ -116,10 +116,19 @@
     }
 }
 
-@media(min-width: 576px) { 
+@media(max-width: 576px) { 
+
+    .presentation__place {
+
+       
+        .presentation__filter {
+            
+            
+            padding: 3% 25px 3% 25px;
+        }
+    }    
 
 }
-
 
 
 

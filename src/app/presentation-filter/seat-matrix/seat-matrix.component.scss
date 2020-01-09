@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns: 1fr 8fr 1fr;
         grid-template-areas: "letters-left seat letters-right";
-        padding: 3% 150px 3% 150px;
+        padding: 3% 80px 3% 80px;
 
         .letters-left {
             
@@ -62,4 +62,17 @@
             }
         }
     }    
+}
+
+
+@media(max-width: 576px) { 
+
+    .presentation__seat {
+
+        .presentation__map__seat {
+
+            padding: 3% 25px 3% 25px;
+        }
+    }
+
 }
