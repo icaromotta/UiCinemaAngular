@@ -27,7 +27,7 @@
     flex-direction: column-reverse;
     justify-content: space-between;
     padding: 0 80px 0 80px;
-    
+
     ul {
       list-style: none;
       min-width: 75%;
@@ -71,17 +71,24 @@
   }
 }
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
 
   .hero {
 
+
+
     .hero__info {
 
-      // width: 80%;
+      padding: 0 25px 0 25px;
 
       ul {
         list-style: none;
-        width: 60%;
+        width: 100%;
+      }
+
+      .hero__control {
+
+        display: none;
       }
     }
   }
@@ -122,6 +129,20 @@
       // z-index: 1;
       margin: -3em;
       border-radius: 50%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .hero {
+
+    .hero__info {
+      
+
+      ul {
+        width: 80%;
+      }
     }
   }
 }
